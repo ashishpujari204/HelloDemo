@@ -12,13 +12,13 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        init();
+        init();//initialize method
     }
 
 
     public void init()
     {
-        
+
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
